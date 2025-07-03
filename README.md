@@ -16,7 +16,7 @@ A simple and interactive web app built using **Python**, **Streamlit**, and **ba
 
 ##  How to Run the App Locally
 
-1. **Clone the repository** or download the `app.py` file:
+1. **Clone the repository** or download the `House_price_app.py` file:
 
    ```bash
    git clone https://github.com/your-username/house-price-prediction.git
@@ -28,7 +28,7 @@ pip install streamlit
 
 ## Run the app:
 
-streamlit run app.py
+streamlit run House_price_app.py
 
 ## Open your browser and go to:
 
