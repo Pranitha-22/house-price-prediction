@@ -19,7 +19,7 @@ else:  # Chennai
 st.write(f"📏 Price per sq.ft in **{location}**: ₹ {area_price}")
 
 st.markdown("### 📐 Enter Property Details")
-area = st.number_input("🏠 Area (sq.ft)", min_value=300, max_value=10000, value=1000)
+area = st.number_input("🏠 Area (sq.ft)", min_value=300, max_value=10000, value=1000) 
 bedrooms = st.number_input("🛏️ Bedrooms", min_value=1, value=2)
 bathrooms = st.number_input("🛁 Bathrooms", min_value=1, value=2)
 parking = st.number_input("🚗 Parking Slots", min_value=0, value=1)
