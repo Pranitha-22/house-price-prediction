@@ -27,3 +27,4 @@ parking = st.number_input("🚗 Parking Slots", min_value=0, value=1)
 if st.button("💰 Calculate Estimated Price"):
     price = (area * area_price) + (bedrooms * 500000) + (bathrooms * 300000) + (parking * 200000)
     st.success(f"🏷️ Estimated Price: ₹ {price:,.2f}")
+
