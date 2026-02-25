@@ -1,37 +1,51 @@
-# 🏠 House Price Prediction
+# 🏠 House Price Prediction App
 
-A simple and interactive web app built using **Python**, **Streamlit**, and **basic Machine Learning** to estimate the price of a house based on its location, area, number of bedrooms, bathrooms, and parking slots.
-
----
-
-## 📊 Features
-
-- 📍 Location-based price per square foot (Hyderabad, Bangalore, Mumbai, Chennai)
-- 📐 Area input (in sq.ft)
-- 🛏️ Bedroom and 🛁 bathroom selection
-- 🚗 Parking slots input
-- 💰 Instant price estimation using a custom formula
+A regression-based ML system deployed with Streamlit for predicting property prices based on location and amenities.
 
 ---
 
-##  How to Run the App Locally
+## ✨ Core Features
 
-1. **Clone the repository** or download the `House_price_app.py` file:
+- 📍 Location-based encoding
+- 🏗️ Feature engineering pipeline
+- 📈 Model evaluation metrics
+- 🖥️ Interactive UI
+- 💾 Model serialization
+- 📊 Confidence range output
 
-   ```bash
-   git clone https://github.com/your-username/house-price-prediction.git
-   cd house-price-prediction```
+---
 
-## Install streamlit:
+## 🧠 ML Pipeline
 
-pip install streamlit
+Raw Data  
+→ 🧹 Cleaning  
+→ 🔢 Feature Encoding  
+→ 📊 Model Training  
+→ 🧪 Evaluation  
+→ 🚀 Deployment (Streamlit)
 
-## Run the app:
+---
 
-streamlit run House_price_app.py
+## 🛠️ Tech Stack
 
-## Open your browser and go to:
+- Python
+- Scikit-learn
+- Pandas
+- Streamlit
 
-http://localhost:8501
+---
 
+## ▶️ Run Locally
 
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 🌱 Future Improvements
+
+- ⚡ XGBoost integration
+- 🔁 Cross-validation tuning
+- 🌐 API deployment
