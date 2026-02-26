@@ -1,41 +1,59 @@
-# 🏠 House Price Prediction App
+# 🏠 House Price Prediction System
+## 📈 End-to-End Machine Learning Deployment with Interactive UI
 
-A regression-based ML system deployed with Streamlit for predicting property prices based on location and amenities.
-
----
-
-## ✨ Core Features
-
-- 📍 Location-based encoding
-- 🏗️ Feature engineering pipeline
-- 📈 Model evaluation metrics
-- 🖥️ Interactive UI
-- 💾 Model serialization
-- 📊 Confidence range output
+This project delivers a complete machine learning pipeline to predict residential property prices based on structural features, amenities, and location encoding. The system includes model training, feature engineering, and a Streamlit-based interactive deployment.
 
 ---
 
-## 🧠 ML Pipeline
+## 🚀 Key Features
 
-Raw Data  
-→ 🧹 Cleaning  
-→ 🔢 Feature Encoding  
-→ 📊 Model Training  
-→ 🧪 Evaluation  
-→ 🚀 Deployment (Streamlit)
+- 📍 Location-based price encoding
+- 📊 Feature engineering & preprocessing
+- 🧠 Regression model training & validation
+- 🎯 RMSE / MAE / MAPE evaluation
+- 🖥️ Streamlit interactive prediction interface
+- 📉 Confidence price range estimation
+- 📦 Model serialization using Pickle
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Machine Learning Pipeline
 
-- Python
+Raw Housing Data  
+→ Cleaning & Encoding  
+→ Feature Engineering  
+→ Model Training  
+→ Evaluation  
+→ Deployment (Streamlit UI)
+
+---
+
+## 📊 Model Details
+
+- Model: (Specify yours – Random Forest / Linear Regression / etc.)
+- Evaluation Metrics:
+  - RMSE: (add value)
+  - MAE: (add value)
+  - MAPE: (add value)
+- Location Mapping Dictionary Used
+- Amenity Feature Binary Encoding
+
+---
+
+## 🛠️ Technology Stack
+
+### 🔍 Machine Learning
 - Scikit-learn
 - Pandas
+- NumPy
+
+### 🖥️ Deployment
 - Streamlit
+- Pickle
 
 ---
 
-## ▶️ Run Locally
+## 💻 Run Locally
 
 ```bash
 pip install -r requirements.txt
@@ -44,8 +62,19 @@ streamlit run app.py
 
 ---
 
-## 🌱 Future Improvements
+## 💡 Resume Impact
 
-- ⚡ XGBoost integration
-- 🔁 Cross-validation tuning
-- 🌐 API deployment
+- Designed full ML pipeline from preprocessing to deployment  
+- Engineered feature encoding strategy for categorical variables  
+- Built production-ready interactive UI  
+- Implemented prediction confidence range system  
+- Structured clean separation between training and inference logic  
+
+---
+
+## 🔮 Future Improvements
+
+- XGBoost model integration  
+- SHAP explainability dashboard  
+- REST API deployment  
+- Cloud hosting (Streamlit Cloud / AWS)
