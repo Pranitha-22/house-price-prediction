@@ -62,16 +62,6 @@ streamlit run app.py
 
 ---
 
-## 💡 Resume Impact
-
-- Designed full ML pipeline from preprocessing to deployment  
-- Engineered feature encoding strategy for categorical variables  
-- Built production-ready interactive UI  
-- Implemented prediction confidence range system  
-- Structured clean separation between training and inference logic  
-
----
-
 ## 🔮 Future Improvements
 
 - XGBoost model integration  
